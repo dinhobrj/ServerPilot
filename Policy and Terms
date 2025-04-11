@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Termos de Serviço e Política de Privacidade | Serverpilot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2 {
+      color: #004aad;
+    }
+    hr {
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Termos de Serviço - Serverpilot</h1>
+  <p>Ao utilizar o bot Serverpilot, você concorda com os seguintes termos de serviço:</p>
+  <ul>
+    <li>Você é responsável pelo uso do bot em seu servidor e deve respeitar as regras do Discord.</li>
+    <li>O bot é fornecido "como está", sem garantias de disponibilidade contínua ou funcionamento ininterrupto.</li>
+    <li>Podemos alterar ou encerrar funcionalidades do bot a qualquer momento sem aviso prévio.</li>
+    <li>O uso indevido do bot poderá resultar em banimento do serviço.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Política de Privacidade - Serverpilot</h2>
+  <p>O ServerPilot respeita a sua privacidade. Abaixo explicamos como tratamos os dados:</p>
+  <ul>
+    <li>Não coletamos ou armazenamos dados pessoais dos usuários finais (membros do servidor).</li>
+    <li>Podemos armazenar dados básicos de configuração do servidor, como canais selecionados, preferências e permissões.</li>
+    <li>Esses dados são utilizados apenas para funcionamento do bot e nunca são compartilhados com terceiros.</li>
+    <li>Você pode solicitar a remoção dos dados a qualquer momento entrando em contato com a equipe responsável.</li>
+  </ul>
+
+  <p>Se tiver dúvidas sobre estes termos ou política, entre em contato com a equipe Serverpilot.</p>
+
+  <p><strong>Última atualização:</strong> abril de 2025</p>
+</body>
+</html>
