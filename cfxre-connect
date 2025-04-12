@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Conectando ao servidor...</title>
+    <script>
+      window.onload = function () {
+        const params = new URLSearchParams(window.location.search);
+        const ip = params.get("ip");
+        if (ip) {
+          window.location.href = `${ip}`;
+        } else {
+          document.body.innerHTML = "<h2>IP não fornecido.</h2>";
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <h1>Conectando ao servidor FiveM...</h1>
+    <p>Se não abrir automaticamente, <a id="fallback" href="#">clique aqui</a>.</p>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const ip = params.get("ip");
+      if (ip) {
+        document.getElementById("fallback").href = `fivem://connect/${ip}`;
+      }
+    </script>
+  </body>
+</html>
