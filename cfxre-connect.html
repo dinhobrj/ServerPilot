@@ -22,7 +22,7 @@
       const params = new URLSearchParams(window.location.search);
       const ip = params.get("ip");
       if (ip) {
-        document.getElementById("fallback").href = `fivem://connect/${ip}`;
+        document.getElementById("fallback").href = `${ip}`;
       }
     </script>
   </body>
